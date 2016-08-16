@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Resume</string>
+    <string name="personal_button">personal</string>
+    <string name="academic_button">academic</string>
+    <string name="gallery_button">gallery</string>
+    <string name="others_button">others</string>
+    <string name="welcome_text">welcome</string>
+
+    <string name="name_textView">Name: Sukdev Dutta</string>
+    <string name="mobile_textView">Mobile: 0188188784</string>
+    <string name="address_textView">Address: Patuakhali-8600</string>
+    <string name="email_textView">E-mail: dev@gmail.com</string>
+    <string name="profession_textView">Profession: Student</string>
+</resources>
+

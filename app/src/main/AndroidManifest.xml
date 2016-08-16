@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.apps.creative.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_action_account_balance"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".home_page">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:label="@string/app_name"/>
+        <activity android:name=".personal"
+            android:label="@string/personal_button"/>
+        <activity android:name=".academic"
+            android:label="@string/academic_button"/>
+        <activity android:name=".others"
+            android:label="@string/others_button"/>
+        <activity android:name=".gallery"
+            android:label="@string/gallery_button"/>
+    </application>
+
+</manifest>
